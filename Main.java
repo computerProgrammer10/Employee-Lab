@@ -36,6 +36,11 @@ public class Main
       
       //4 Write the code to add 40 hours to Dr. Cox
       ((Hourly)staffList[3]).addHours(40);
+
+     ((Hourly)staffList[6]).addHours(35);
+     ((Commission)staffList[6]).addSales(400);
+     ((Hourly)staffList[7]).addHours(40);
+    ((Commission)staffList[7]).addSales(950);
    
 
    //-----------------------------------------------------------------
