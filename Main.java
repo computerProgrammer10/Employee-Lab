@@ -28,9 +28,9 @@ public class Main
          "555-8374");
       staffList[5] = new Volunteer ("Carla", "321 Duds Lane",
          "555-7282");
-      staffList[6] = new Commission("Bobby","100 Bob Street", "192-1351-222", "239592329", 15.0, 0.2);
+      staffList[6] = new Commission("Bobby","100 Bob Street", "192-1351-222", "239592329", 6.25, 0.2);
 
-      staffList[7] = new Commission("Monkey","200 Banana Lane", "183-5555", "82883841", 20.0, 0.4);
+      staffList[7] = new Commission("Monkey","200 Banana Lane", "183-5555", "82883841", 9.75, 0.15);
      //3 Write the code to award a bonus of 500 to Elliot
       ((Executive)staffList[0]).awardBonus(500);
       
